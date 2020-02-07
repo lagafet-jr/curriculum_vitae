@@ -5,40 +5,68 @@
   <meta charset="UTF-8">
   <title>Business card</title>
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="wrapper main">
   <header class="header">
-    <h1>Павел Полянский. Студент FR-5</h1>
+    <div class="container">
+      <div class="column column-1-2">
+        <div class="header-name">
+          <p>Pavel Polyanskii</p>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <div class="column column-1-2">
+        <div class="header-icons">
+          <ul>
+            <i class="fa fa-telegram fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-skype fa-2x" aria-hidden="true"></i><a href="#"></a>
+          </ul>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="main">
-    <div class="container">
+    <div class="container intro-bg">
       <div class="column column-1-2">
         <img class="avatar" src="images/my_avatar.jpg" alt="photo">
-        <h2>Контактная информация</h2>
-        <p class="contacts"><img src="images/phone.png" alt="phone" align="middle"> <a class="link"
-            href="+79181760169">+79181760169</a></p>
-        <p class="contacts"><img src="images/mail.png" alt="E-mail" align="middle"> <a class="link"
-            href="lagafet@gmail.com">lagafet@gmail.com</a></p>
       </div>
+
       <div class="column column-1-2">
-        <div class="subtitle">
-          <h2 class="non-margin">О себе</h2>
-          <p>Начинающий Фронтэнд Разработчик.</p>
-          <p>Изучаю HTML, CSS, JavaScript. Хочу научиться создавать сайты и погрузиться с головой в сферу IT</p>
+        <div class="intro1-1">
+          <div class="subtitle line-down">
+            <h2 class="non-margin">HELLO! <span class="name-color">I`M PAVEL</span></h2>
+            <p>React.js Frontend Developer</p>
+          </div>
         </div>
-        <div class="subtitle">
-          <h2>Образование</h2>
-          <p><a class="link" href="http://asu.edu.ru/" target="_blank">Астраханский Государственный Университет</a></p>
-          <p>Факультет математики и информационных технологий</p>
-          <p>Специалист по защите информации</p>
-          <p>2008 - 2013</p>
+
+        <div class="intro1-2">
+          <div class="subtitle">
+            <p class="contacts"><img src="images/phone.png" alt="phone" align="middle"> <a class="link"
+                href="+79181760169">+79181760169</a></p>
+            <p class="contacts"><img src="images/mail.png" alt="E-mail" align="middle"> <a class="link"
+                href="lagafet@gmail.com">lagafet@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="intro1-3">
+          <ul class="intro-icons">
+            <i class="fa fa-telegram fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i><a href="#"></a>
+            <i class="fa fa-skype fa-2x" aria-hidden="true"></i><a href="#"></a>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="container line">
+    <div class="container line-up">
       <div class="column column-1-3">
         <h2>Опыт работы</h2>
         <p class="contacts"><img src="images/rb_logo.png" alt="logo" width="36px" height="36px" align="middle"><a
@@ -66,6 +94,11 @@
   </main>
 
   <footer>
+    <h2>Образование</h2>
+          <p><a class="link" href="http://asu.edu.ru/" target="_blank">Астраханский Государственный Университет</a></p>
+          <p>Факультет математики и информационных технологий</p>
+          <p>Специалист по защите информации</p>
+          <p>2008 - 2013</p>
   </footer>
 
 </body>
