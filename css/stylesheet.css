@@ -2,14 +2,35 @@ body {
   font-family: sans-serif;
   margin: 0 auto;
   color: #333;
-  background-color: rgb(204, 202, 200);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(7, 165, 165) 30%, rgb(204, 202, 200) 30% 100%);
 }
 
 .header {
   padding-top: 10px;
   padding-bottom: 30px;
-  text-align: center;
   flex: 0;
+}
+
+.header-name {
+  text-align: left;
+  color: white;
+}
+
+.header-icons {
+  width: 400px;
+  text-align: right;
+  margin-left: 50px;
+}
+
+.header-icons ul i {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 .main {
