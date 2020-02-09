@@ -12,13 +12,22 @@ body {
 
 .header {
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   flex: 0;
 }
 
 .header-name {
   text-align: left;
   color: white;
+}
+
+.header-name h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+.header-name h3 {
+  font-family: 'Open Sans';
+  font-size: 15px;
 }
 
 .header-icons {
