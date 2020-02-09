@@ -1,0 +1,155 @@
+.icon {
+  width: 50%;
+}
+
+.icon ul {
+  list-style: none;
+}
+
+.icon ul li {
+  width: 45px;
+  height: 45px;  
+  margin: 0 auto;
+  text-align: right;
+  cursor: pointer;
+  float: right;
+  position: relative; 
+  transition: all 0.5s ease;
+}
+
+.icon ul li .fa {
+  color: #fff;
+  line-height: 65px;
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+
+ul li.linkedin:before{
+  content: "linkedin";
+}
+
+ul li.skype:before{
+  content: "skype";
+  left: 5px;
+}
+
+ul li.instagram:before{
+  content: "instagram";
+}
+
+ul li.github:before{
+  content: "github";
+  left: 5px;
+}
+
+ul li.telegram:before{
+  content: "telegram";
+}
+
+ul li:before{
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: -5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+
+.icon ul li:hover.linkedin {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.icon ul li:hover .fa-linkedin {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.icon ul li.linkedin:hover:before{
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+}
+
+.icon ul li:hover.skype {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.icon ul li:hover .fa-skype {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.icon ul li.skype:hover:before{
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+}
+
+.icon ul li:hover.instagram {
+  border: 5px solid #eb0db3;
+  box-shadow: 0 0 15px #eb0db3;
+  transition: all 0.5s ease;
+}
+
+.icon ul li:hover .fa-instagram {
+  color: #eb0db3;
+  text-shadow: 0 0 15px #eb0db3;
+  transition: all 0.5s ease;
+}
+
+.icon ul li.instagram:hover:before{
+  color: #eb0db3;
+  text-shadow: 0 0 15px #eb0db3;
+}
+
+.icon ul li:hover.github {
+  border: 5px solid black;
+  box-shadow: 0 0 15px black;
+  transition: all 0.5s ease;
+}
+
+.icon ul li:hover .fa-github {
+  color: black;
+  text-shadow: 0 0 15px black;
+  transition: all 0.5s ease;
+}
+
+
+.icon ul li.github:hover:before{
+   color: black;
+   text-shadow: 0 0 15px black;
+}
+
+
+.icon ul li:hover.telegram {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.icon ul li:hover .fa-telegram {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.icon ul li.telegram:hover:before{
+   color: #00aced;
+   text-shadow: 0 0 15px #00aced;
+}
+
+@media screen and (max-width: 680px){
+  .icon {
+      width: 150px;
+  }
+  .icon ul li{
+      margin-bottom: 45px;
+}
+}
