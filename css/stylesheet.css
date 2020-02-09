@@ -59,24 +59,54 @@ body {
   flex-flow: row;
 }
 
+.intro-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.intro-half {
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0px;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.intro-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
 .intro-bg {
   background-color: white;
 }
 
-.intro1-1 {
-  width: 100%;
+.intro-1,
+.intro-2,
+.intro-3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.intro-1 {
+  flex-basis: 25%;
   height: 25%;
-  margin: 0 auto;
 }
 
-.intro1-2 {
-  width: 100%;
+.intro-2 {
+  flex-basis: 50%;
   height: 50%;
-  margin: 0 auto;
 }
 
-.intro1-3 {
-  width: 100%;
+.intro-3 {
+  flex-basis: 25%;
   height: 25%;
   background-color: rgb(7, 165, 165)
 }
